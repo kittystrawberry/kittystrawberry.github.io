@@ -1,3 +1,63 @@
+
+.profile-card {
+	margin-right:5%;
+	margin-left:5%;
+	margin-top: 20px;
+	border-radius: 25px;
+	background: white;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	text-align: center;
+ }
+
+.profile-header {
+	background-color: #21968C;
+	color: white;
+	padding: 20px 10px;
+}
+
+.profile-photo {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 4px solid white;
+	margin-top: -60px;
+	background: url('images/profile.jpg') no-repeat center center/cover;
+}
+
+.profile-content {
+	padding: 20px;
+}
+
+.profile-content h3 {
+	margin: 10px 0;
+}
+
+.profile-content p {
+	color: #666;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.horisontal-list {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.horisontal-list li {
+	background-color: #ECECEC;
+	color: #21968C;;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 12px;
+	margin: 6px;
+}
+
 @charset "utf-8";
 
 /* IDS ^_^ */
@@ -6,8 +66,8 @@
 	display: grid;
 	height: auto;
 	grid-template-columns: repeat(2, 1fr);
-	margin-right:  5%;
-	margin-left:  5%;
+	margin-right:5%;
+	margin-left:5%;
 	margin-top: 20px;
 }
 
@@ -25,9 +85,9 @@
 	display: flex;
 	justify-content: center;
 	text-align: left;
-  	grid-row-start: span 2;
+	grid-row-start: span 2;
 	padding: 20px;
-  
+
 }
 
 #item-2-text, #item-3-text {
@@ -51,8 +111,8 @@
 	display: grid;
 	height: auto;
 	grid-template-columns: repeat(1, 1fr);
-	margin-right:  5%;
-	margin-left:  5%;
+	margin-right:5%;
+	margin-left:5%;
 	margin-top: 20px;
 	border-radius: 25px;
 	background: white;
@@ -63,8 +123,8 @@
 	display: grid;
 	height: auto;
 	grid-template-columns: repeat(1, 1fr);
-	margin-right:  5%;
-	margin-left:  5%;
+	margin-right:5%;
+	margin-left:5%;
 	border-radius: 25px;
 	background: #21968C;
 	color: white;
@@ -78,8 +138,8 @@
 	display: grid;
 	height: auto;
 	grid-template-columns: repeat(1, 1fr);
-	margin-right:  5%;
-	margin-left:  5%;
+	margin-right:5%;
+	margin-left:5%;
 	margin-top: 20px;
 	border-radius: 25px;
 	background: white;
@@ -92,21 +152,21 @@ body {
 	background: #ECECEC;
 	color: #312F3E;
 	font-family: Gilroy, sans-serif;
-	src: url('fonts\Gilroy-Regular.ttf')  format('truetype');
+	src: url('fonts\Gilroy-Regular.ttf')format('truetype');
 	margin: 0;
 }
 
 h1, h2 {
 	font-family: Gilroy ExtraBold, sans-serif;
-	src: url('fonts\Gilroy-ExtraBold.ttf')  format('truetype');
+	src: url('fonts\Gilroy-ExtraBold.ttf')format('truetype');
 	font-weight: 700;
 }
 
-h1 {
+h2 {
 	font-size: 20px;
 }
 
-h2 {
+h1 {
 	font-size: 22px;
 	text-align: center;
 }
@@ -144,7 +204,7 @@ nav {
 	color: #312F3E;
 	display: flex;
 	font-family: Gilroy ExtraBold, sans-serif;
-	src: url('fonts\Gilroy-ExtraBold.ttf')  format('truetype');
+	src: url('fonts\Gilroy-ExtraBold.ttf')format('truetype');
 	justify-content: space-between;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -159,7 +219,7 @@ table {
 	width: 100%;
 }
 
-table, thead th  {
+table, thead th{
 	color: #312F3E;
 }
 
@@ -247,48 +307,48 @@ footer {
 }
 
 .news-card {
-    display: flex;
-    width: 100%;
+display: flex;
+width: 100%;
 	height: 210px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
 }
 
 .news-card-image {
 	padding: 20px;
-    width: 40%;
+width: 40%;
 	height: 150px;
-    object-fit: cover;
+object-fit: cover;
 }
 
 .news-card-content {
-    padding: 16px;
-    flex: 1;
+padding: 16px;
+flex: 1;
 	flex-grow: 1;
 }
 
 .news-card-content h2 {
-    margin-top: 0;
+margin-top: 0;
 	text-align: left;
-    font-size: 1.5rem;
+font-size: 1.5rem;
 }
 
 .news-card-content p {
-    margin: 8px 0;
+margin: 8px 0;
 }
 
 .read-more {
-    text-decoration: none;
-    color: #21968C;
-    font-weight: bold;
+	text-decoration: none;
+	color: #21968C;
+	font-weight: bold;
 	bottom: 0;
-    display: inline-block;
+	display: inline-block;
 }
 
 .read-more:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 .card-button {
@@ -296,7 +356,7 @@ footer {
 	color: #312F3E;
 	cursor: pointer;
 	font-family: Gilroy ExtraBold, sans-serif;
-	src: url('fonts\Gilroy-ExtraBold.ttf')  format('truetype');
+	src: url('fonts\Gilroy-ExtraBold.ttf')format('truetype');
 	font-size: 18px;
 	padding: 3% 7%;
 	text-transform: uppercase;
@@ -308,13 +368,13 @@ footer {
 	color: white;
 	font-size: 36px;
 	font-family: Gilroy Black, sans-serif;
-	src: url('fonts\Gilroy-Black.ttf')  format('truetype');
+	src: url('fonts\Gilroy-Black.ttf')format('truetype');
 }
 
 .text-card {
 	color: white;
 	font-family: Gilroy Medium, sans-serif;
-	src: url('fonts\Gilroy-Medium.ttf')  format('truetype');
+	src: url('fonts\Gilroy-Medium.ttf')format('truetype');
 	font-size: 16px;
 	text-align: justify;
 	width: 90%;
@@ -330,7 +390,7 @@ footer {
 	padding: 8px 30px;
 }
 
-.nav-left a:hover, .nav-right a:hover {
+.nav-right a:hover {
 	background-color: #E0E0E0;
 	transition: all 0.3s ease;
 }
@@ -452,7 +512,7 @@ padding: 15px;
 }
 
 .footer-section h3 {
-	border-bottom: 2px solid #F1882D;
+	border-bottom: 2px solid white;
 	color: white;
 	display: inline-block;
 	font-size: 22px;
