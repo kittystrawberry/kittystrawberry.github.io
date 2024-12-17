@@ -71,11 +71,11 @@
 	margin-top: 20px;
 }
 
-#item-1-card, #item-2-text, #item-3-text {
+.item-1-card, .item-2-text, .item-3-text {
 	border-radius: 25px;
 }
 
-#item-1-card {
+.item-1-card {
 	width: 100%;
 	align-items: center;
 	color: white;
@@ -90,13 +90,13 @@
 
 }
 
-#item-2-text, #item-3-text {
+.item-2-text, .item-3-text {
 	background-color: white;
 	margin-left: 60px;
 	padding: 20px;
 }
 
-#item-3-text {
+.item-3-text {
 	grid-area: 2 / 2 / auto / span 1;
 	margin-top: 20px;
 }
@@ -371,6 +371,7 @@ text-decoration: underline;
 	color: #312F3E;
 	text-decoration: none;
 	padding: 8px 30px;
+	text-transform: uppercase; 
 }
 
 .nav-right a:hover {
@@ -522,6 +523,14 @@ margin: 10px 0;
 
 .footer-bottom p {
 	color: white;
+}
+
+.logo {
+	width: 3%;
+	align: right;
+	margin-right: 50px;
+	margin-top: -50px;
+	border-radius: 0;
 }
 
 /* RESPONSIVE THINGY (FIX REQUIRED) ^_^ */
