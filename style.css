@@ -58,7 +58,19 @@
 	margin: 6px;
 }
 
-@charset "utf-8";
+.motto {
+	text-transform: uppercase;
+	color: white;
+	font-size: 36px;
+	text-align: left;
+}
+
+.explanation {
+	color: white;
+	font-size: 16px;
+	text-align: justify;
+	width: 90%;
+}
 
 /* IDS ^_^ */
 
@@ -145,6 +157,7 @@
 	background: white;
 	padding: 20px;
 }
+
 
 /* MAIN ELEMENTS ^_^ */
 
