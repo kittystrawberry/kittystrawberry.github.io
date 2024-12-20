@@ -1,3 +1,16 @@
+.about {
+	width: 40%;
+	margin-left: 20px;
+}
+
+.date {
+	text-align: right;
+	color: gray;
+}
+
+.work-example {
+	width: 25%;
+}
 
 .profile-card {
 	margin-right:5%;
